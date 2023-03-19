@@ -15,8 +15,12 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background: mistyrose;
+    margin-bottom: 0px;
+    background-image: url(./Images/header-background-img.jpeg);
+    background-color: mistyrose;
     color: palevioletred;
+    border: solid 2px palevioletred;
+    box-shadow: 5px 5px rosybrown;
 }
 
 .nav {
@@ -36,5 +40,23 @@ h2 {
     display: inline-block;
     color: palevioletred;
     background: mistyrose;
+    border: solid 2px palevioletred;
+    box-shadow: 5px 5px rosybrown;
+}
+
+
+.funFact {
+    display: none;
+    padding: 5px;
+    background-color: mistyrose;
+}
+
+section:hover aside {
+    display: inline-block;
+}
+
+span {
+    font-weight: bold;
+    color: palevioletred;
 }
 
